@@ -7,19 +7,11 @@
 
   <parent>
     <groupId>es.abelfgdeveloper.course.food-ordering-system</groupId>
-    <artifactId>order-domain</artifactId>
+    <artifactId>food-ordering-system-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
 
-  <artifactId>order-domain-core</artifactId>
-
-
-  <dependencies>
-    <dependency>
-      <groupId>es.abelfgdeveloper.course.food-ordering-system</groupId>
-      <artifactId>common-domain</artifactId>
-    </dependency>
-  </dependencies>
+  <artifactId>common-domain</artifactId>
 
 </project>
